@@ -11,7 +11,7 @@
     <title>AMAROQ</title>
 </head>
 
-<body class="flex flex-col items-center h-[100vh]">
+<body class="flex flex-col items-center h-[100vh] static">
     <main class="font-Roboto container flex flex-col justify-center bg-red-50">
         <div class="flex items-center pl-10 pt-4 pb-4 gap-10">
             <div class="logo">
@@ -24,12 +24,12 @@
                 <a href="">Blog</a>
             </div>
         </div>
-        <div class="flex flex-col justify-center container w-[100%] ">
+        <div class="flex flex-col justify-center container w-[100%]">
             <div class="">
                 <img src="./assets/banner.png" alt="banner">
             </div>
-            <div class="flex w-full pt-6  space-between">
-                <div class="w-[30%] bg-red-500">
+            <div class="flex w-full pt-6 space-between">
+                <div class="w-[30%] bg-red-500 rounded-lg absolute">
                     <div class="flex items-center justify-around py-4">
                         <div class="">
                             <img class="w-[90%]" src="./assets/profil-mini.png" alt="">
@@ -51,7 +51,7 @@
                         <img src="./assets/Line-mini.png" alt="">
                     </div>
                     <div class="flex flex-col gap-4">
-                        <div class="flex justify-evenly font-Roboto">
+                        <div class="flex justify-between font-Roboto">
                             <div class="">
                                 <h1 class="text-lg font-bold">4.9</h1>
                                 <h2 class="text-sm font-normal">Rating</h2>
@@ -69,7 +69,7 @@
                                 <h2 class="text-sm font-normal">Starting</h2>
                             </div>
                         </div>
-                        <div class="flex space-x-2 pl-10">
+                        <div class="flex space-x-2 justify-between">
                             <button type="button" class="inline-block px-6 py-2 border-2 bg-black text-white border-black font-medium text-xs
                                 leading-tight uppercase rounded hover:bg-transparent hover:text-black
                                 transition duration-150 ease-in-out">Hire Now
@@ -78,6 +78,41 @@
                                 leading-tight uppercase rounded hover:bg-black hover:text-white
                                 transition duration-150 ease-in-out">Recent Work
                             </button>
+                        </div>
+                        <div class="flex flex-wrap flex-col gap-2">
+                            <div class=" flex flex-col gap-2">
+                                <h1 class="font-Roboto  font-bold">Video</h1>
+                                <div class="">
+                                    <iframe class="w-[90%] rounded-lg" width="" height=""
+                                        src="https://www.youtube.com/embed/qRb4n-hmAtA" title="YouTube video player"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <h1 class="font-Roboto  font-bold">About me</h1>
+                                <p>Créateur de vidéos<br>
+                                    Filmmaker based in Morocco 📍<br>
+                                    📬 amaroq.visuals@gmail.com<br>
+                                    Check out my first <a href="https://www.youtube.com/watch?v=qRb4n-hmAtA">YouTube
+                                        video</a> ✌🏽✨<br></p>
+                            </div>
+                        </div>
+                        <div class="py-1">
+                            <img src="./assets/Line-mini.png" alt="">
+                        </div>
+                        <div class="">
+                            <div class="flex flex-col gap-1">
+                                <h1 class="font-Roboto  font-bold">Contact me</h1>
+                                <p class="flex gap-2"><i class="fas fa-phone"></i>+2126xxxxxxxxx</p>
+                                <p class="flex gap-2"><i class="fas fa-envelope"></i>AMAROQ@AMAROQ.com</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-5">
+                            <i class="fab fa-facebook"></i>
+                            <i class="fab fa-instagram-square"></i>
+                            <i class="fab fa-twitter-square"></i>
                         </div>
                     </div>
                     <div class="contact-me">
