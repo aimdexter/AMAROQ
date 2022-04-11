@@ -1161,4 +1161,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   .xl\:w-\[28\%\] {
     width: 28%;
   }
+
+  .xl\:justify-around {
+    justify-content: space-around;
+  }
 }
