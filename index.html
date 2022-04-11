@@ -12,12 +12,12 @@
 </head>
 
 <body class="flex flex-col items-center h-screen">
-    <main class="font-Roboto container flex flex-col justify-center">
+    <main class="font-Roboto container flex flex-col justify-center ">
         <div class="flex items-center justify-between px-10 lg:pl-10 pt-4 pb-4 lg:gap-10">
             <div class="logo">
                 <img src="./assets/logo.png" alt="logo">
             </div>
-            <div class=""><i class="fas fa-chevron-circle-down fa-2xl"></i></div>
+            <div class="lg:hidden"><i class="fas fa-chevron-circle-down fa-2xl"></i></div>
             <div class="hidden lg:flex gap-16 font-semibold text-sm w-[100%]">
                 <a class="" href="">Home</a>
                 <a href="">Shop</a>
@@ -25,15 +25,16 @@
                 <a href="">Blog</a>
             </div>
         </div>
-        <div class="flex flex-col justify-center container w-[100%]">
+        <div class="flex flex-col justify-center container w-[100%] lg:relative">
             <div class="hidden lg:block">
                 <img src="./assets/banner.png" alt="banner">
             </div>
-            <div class="flex flex-col-reverse gap-5 lg:flex-row w-full pt- space-between">
-                <div class="lg:w-[30%] mx-5 px-5 pb-5 mb-5 rounded-lg hire shadow-[0_3px_10px_rgb(0,0,0,0.2)] h-fit">
-                    <div class="flex items-center justify-around py-4 ">
+            <div class=" flex flex-col-reverse gap-5 w-full lg:gap-0 space-between">
+                <div
+                    class="lg:w-[33%] xl:w-[28%] xl:top-16 xl:left-3 lg:absolute lg:left-5 lg:top-6 lg:bg-white lg:ml-5 lg:mr-0 lg:mt-5 mx-5 px-5 pb-5 mb-5 rounded-lg shadow-[0_3px_10px_rgb(0,0,0,0.2)] h-fit">
+                    <div class="flex items-center justify-around py-3 ">
                         <div class="">
-                            <img class="w-[90%]" src="./assets/profil-mini.png" alt="">
+                            <img class="w-[80%]" src="./assets/profil-mini.png" alt="">
                         </div>
                         <div class="flex flex-col gap-1">
                             <h1 class="font-Roboto lg:text-xl font-bold">AMAROQ</h1>
@@ -122,64 +123,67 @@
                             <i class="fab fa-twitter-square"></i>
                         </div>
                     </div>
-
                 </div>
-                <div class="pb-4">
+                <div class="pb-4 lg:hidden">
                     <img src="./assets/Line-mini.png" alt="">
                 </div>
-                <div class="lg:w-[70%]">
-                    <div class=" pb-6">
-                        <img src="./assets/Line.png" alt="">
-                    </div>
-                    <div class="flex justify-around font-semibold text-xs">
-                        <a href="">Art Projects</a>
-                        <a href="">Photographes</a>
-                        <a href="">Neture</a>
-                        <a href="">Models</a>
-                    </div>
-                    <div class=" pt-6">
-                        <img src="./assets/Line.png" alt="">
-                    </div>
-                    <section class="overflow-hidden">
-                        <div class="container px-2 py-6 mx-auto ">
-                            <div class="flex flex-wrap ">
-                                <div class="flex flex-wrap w-1/2">
-                                    <div class="w-1/2 p-1 md:p-2">
-                                        <img alt="gallery"
-                                            class="block object-cover object-center w-full h-full rounded-lg"
-                                            src="./assets/shot1.png">
+                <div class="lg:flex lg:flex-row-reverse lg:justify-between">
+                    <div class="lg:flex lg:flex-col lg:w-[60%] xl:w-[69%]">
+                        <div class=" pb-6">
+                            <img src="./assets/Line.png" alt="">
+                        </div>
+                        <div class="flex justify-around font-semibold text-xs">
+                            <a href="">Art Projects</a>
+                            <a href="">Photographes</a>
+                            <a href="">Neture</a>
+                            <a href="">Models</a>
+                        </div>
+                        <div class=" pt-6">
+                            <img src="./assets/Line.png" alt="">
+                        </div>
+                        <section class="lg:w-[100%] overflow-hidden">
+                            <div class="container px-2 py-6 mx-auto ">
+                                <div class="flex flex-wrap ">
+                                    <div class="flex flex-wrap w-1/2">
+                                        <div class="w-1/2 p-1 md:p-2">
+                                            <img alt="gallery"
+                                                class="block object-cover object-center w-full h-full rounded-lg"
+                                                src="./assets/shot1.png">
+                                        </div>
+                                        <div class="w-1/2 p-1 md:p-2">
+                                            <img alt="gallery"
+                                                class="block object-cover object-center w-full h-full rounded-lg"
+                                                src="./assets/shot2.png">
+                                        </div>
+                                        <div class="w-full p-1 md:p-2">
+                                            <img alt="gallery"
+                                                class="block object-cover object-center w-full h-full rounded-lg"
+                                                src="./assets/shot3.png">
+                                        </div>
                                     </div>
-                                    <div class="w-1/2 p-1 md:p-2">
-                                        <img alt="gallery"
-                                            class="block object-cover object-center w-full h-full rounded-lg"
-                                            src="./assets/shot2.png">
-                                    </div>
-                                    <div class="w-full p-1 md:p-2">
-                                        <img alt="gallery"
-                                            class="block object-cover object-center w-full h-full rounded-lg"
-                                            src="./assets/shot3.png">
-                                    </div>
-                                </div>
-                                <div class="flex flex-wrap w-1/2">
-                                    <div class="w-full p-1 md:p-2">
-                                        <img alt="gallery"
-                                            class="block object-cover object-center w-full h-full rounded-lg"
-                                            src="./assets/shot4.png">
-                                    </div>
-                                    <div class="w-1/2 p-1 md:p-2">
-                                        <img alt="gallery"
-                                            class="block object-cover object-center w-full h-full rounded-lg"
-                                            src="./assets/shot5.png">
-                                    </div>
-                                    <div class="w-1/2 p-1 md:p-2">
-                                        <img alt="gallery"
-                                            class="block object-cover object-center w-full h-full rounded-lg"
-                                            src="./assets/shot6.png">
+                                    <div class="flex flex-wrap w-1/2">
+                                        <div class="w-full p-1 md:p-2">
+                                            <img alt="gallery"
+                                                class="block object-cover object-center w-full h-full rounded-lg"
+                                                src="./assets/shot4.png">
+                                        </div>
+                                        <div class="w-1/2 p-1 md:p-2">
+                                            <img alt="gallery"
+                                                class="block object-cover object-center w-full h-full rounded-lg"
+                                                src="./assets/shot5.png">
+                                        </div>
+                                        <div class="w-1/2 p-1 md:p-2">
+                                            <img alt="gallery"
+                                                class="block object-cover object-center w-full h-full rounded-lg"
+                                                src="./assets/shot6.png">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </section>
+                        </section>
+                    </div>
+                    <div class="hidden lg:block lg:w-[300px] lg:h-[300px]">
+                    </div>
                 </div>
             </div>
         </div>
