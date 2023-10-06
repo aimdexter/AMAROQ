@@ -6,7 +6,7 @@
   "dependencies": {
     "autoprefixer": "^10.4.4",
     "live-server": "^1.2.2",
-    "postcss": "^8.4.12",
+    "postcss": "^8.4.31",
     "tailwindcss": "^3.0.23"
   },
   "scripts": {
